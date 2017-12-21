@@ -1,12 +1,9 @@
 # Show, Attend and Tell 
-<b> Update (December 2, 2016)</b> TensorFlow implementation of [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](http://arxiv.org/abs/1502.03044) which introduces an attention based image caption generator. The model changes its attention to the relevant part of the image while it generates each word.
-
-<br/>
+* In this project we will implement a Chinese image caption model using TensorFlow.
+* The dataset in the project is from [challenge.ai](https://challenger.ai/datasets/caption) which contains 240k manually labeled samples.
+* Most code is reused from [source repo](https://github.com/yunjey/show-attend-and-tell)
 
 ![alt text](jpg/dev1_a.png "soft attention")
-
-<br/>
-
 
 ## References
 The source implement: https://github.com/yunjey/show-attend-and-tell
